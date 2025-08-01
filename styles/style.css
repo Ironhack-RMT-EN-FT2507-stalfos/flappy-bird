@@ -34,3 +34,13 @@ body {
 #game-box * {
   pointer-events: none; /* prevents elements in the game-box to be dragged. This improves the user experience for click events on the game-box  */
 }
+
+
+#game-screen, #game-over-screen {
+  display: none;
+}
+
+#game-box {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+}

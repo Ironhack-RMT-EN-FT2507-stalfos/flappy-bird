@@ -18,7 +18,9 @@
     <!-- GAME SCREEN -->
     <div id="game-screen" class="container">
       <!-- Game elements like score, lifes and other ui elements should be here (inside the game-screen but outside the game-box) -->
-
+      <div id="score">
+        <p>Score: <span id="score-value">0</span></p>
+      </div>
       <div id="game-box">
         <!-- Game elements will be added here via javascript and DOM manipulation -->
       </div>
@@ -30,6 +32,8 @@
       <img src="./images/gameover.png" width="500" alt="logo">
     </div>
 
+  <script src="./js/bird.js"></script>
+  <script src="./js/obstacle.js"></script>
   <script src="./js/main.js"></script>
 
 </body>
